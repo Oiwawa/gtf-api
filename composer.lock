@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ef925300e371576eb9dee7e507198d4",
+    "content-hash": "ff4bf2e7a403d4906b6df950c7333f4d",
     "packages": [
         {
             "name": "brick/math",
@@ -892,6 +892,54 @@
                 }
             ],
             "time": "2022-03-20T21:55:58+00:00"
+        },
+        {
+            "name": "kblais/laravel-uuid",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kblais/laravel-uuid.git",
+                "reference": "7c21e4ca36c8f42b22bda1841dee471d2dcbdcdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kblais/laravel-uuid/zipball/7c21e4ca36c8f42b22bda1841dee471d2dcbdcdf",
+                "reference": "7c21e4ca36c8f42b22bda1841dee471d2dcbdcdf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^8.13|^9.0",
+                "php": "^8.0",
+                "ramsey/uuid": "^3.4|^4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.5",
+                "mockery/mockery": "^1.3.2",
+                "orchestra/testbench": "^6.23|^7.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kblais\\Uuid\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Killian Blais",
+                    "email": "contact@killianblais.fr"
+                }
+            ],
+            "description": "A simple library to use UUIDs as your Eloquent model's primary key.",
+            "support": {
+                "issues": "https://github.com/kblais/laravel-uuid/issues",
+                "source": "https://github.com/kblais/laravel-uuid/tree/v2.0.0"
+            },
+            "time": "2022-02-15T16:47:55+00:00"
         },
         {
             "name": "laravel/framework",
