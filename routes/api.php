@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('flag', [FlagController::class, 'getFlag'])
-    ->name('get.flag');
+Route::get('country', [FlagController::class, 'getRandomCountry'])
+    ->name('get.country');
+Route::get('country/check', [FlagController::class, 'checkAnswer'])
+    ->name('check.answer');
