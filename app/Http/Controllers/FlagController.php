@@ -22,6 +22,8 @@ class FlagController extends Controller
         $answer = $request->get('answer');
         $country = Country::where('code', $request->get('code'))->first();
 
+        $answer = strtolower($answer);
+        $country->english_name = strtolower($country->english_name);
         if ($answer == $country->english_name){
             return response()->json(true);
         }
