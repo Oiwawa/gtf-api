@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Http;
 class FlagController extends Controller
 {
 
-    public function getRandomCountry()
+    public function getCountries()
     {
         $countries = Country::all();
 

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('country', [FlagController::class, 'getRandomCountry'])
+Route::get('country', [FlagController::class, 'getCountries'])
     ->name('get.country');
-Route::post('country/check', [FlagController::class, 'checkAnswer'])
+Route::post('country/checkAnswer', [FlagController::class, 'checkAnswer'])
     ->name('check.answer');
